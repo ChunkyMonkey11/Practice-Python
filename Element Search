@@ -1,0 +1,10 @@
+def element_checker_in_list(element_to_find, ordered_list):
+    element_in_list = False
+    a = element_to_find
+    for x in ordered_list:
+        if x == a:
+            break
+        
+    print(f"The element being searched for,{a} is in list.")
+    
+element_checker_in_list(6,[1,2,3,4,5,6,6])
